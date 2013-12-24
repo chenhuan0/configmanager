@@ -10,6 +10,7 @@ py2exe_options = {
     "compressed" : 1,
     "optimize" : 2,
     "ascii" : 0,
+    "bundle_files": 1
 }
 setup(
     name = 'CTMB Config Manager',
